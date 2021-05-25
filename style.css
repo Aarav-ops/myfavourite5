@@ -1,0 +1,38 @@
+body{
+  background:linear-gradient(#fcf003 34%,#ff0d00 79%);
+  text-align:center;
+  background-repeat:no-repeat;
+}
+h1{
+  text-shadow:2px 2px #2c3991;
+  font-size:40px;
+  color:green;
+  font-family: 'Dancing Script', cursive;
+}
+p{
+  font-size:30px;
+  font-family: 'Lobster', cursive;
+}
+img{
+  border-radius:50px;
+height: 200px;
+}
+.menu{
+    list-style: none;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: blue;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+img:hover{
+    transform: scale(0.9);
+}
